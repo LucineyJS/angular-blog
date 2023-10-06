@@ -5,13 +5,10 @@
   justify-content: center;
 }
 
-.articles__main{
+header {
+  margin-top: 15px;
   display: flex;
-  flex-direction: row;
-  justify-content:space-between;
+  justify-content: center;
 }
-.articles__others{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-}
+
+
