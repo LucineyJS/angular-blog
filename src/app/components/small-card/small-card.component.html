@@ -1,8 +1,8 @@
 <div class="container__small-card">
   <div class="container__small-card_content">
     <div class="small-card__photo">
-      <a href="https://material.angular.io/components/categories" target="_blank">
-        <img src="../assets/angularMaterialComponents.png"
+      <a href="{{cardlink}}" target="_blank">
+        <img src="{{photoCover}}"
         alt="placeholder view"
         width="250px"
         height="150px"
@@ -11,9 +11,10 @@
       </a>
     </div>
     <div class="small-card__description">
-      <a href="https://material.io/components" target="_blank"><p>Angular Material offers a wide variety of UI components based on the Material Design specification</p></a>
+      <a href="{{cardlink}}" target="_blank">
+        <p>{{cardDescription}}</p>
+      </a>
     </div>
-
   </div>
   <div class="container__small-card_separator">
     <hr>
